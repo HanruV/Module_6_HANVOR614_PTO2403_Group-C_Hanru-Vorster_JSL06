@@ -34,9 +34,8 @@ function displayMenuItems(menu) {
             food.addEventListener('click', () => {
                 addToOrder(itemName)
             });
-        
-            food.appendChild(foodList);     // Append the list item to the list of items
-            menuContainer.appendChild(food);        // Append a list of items element to the menu container
+            food.appendChild(foodList);
+            menuContainer.appendChild(food);
         });
     }         
 }
