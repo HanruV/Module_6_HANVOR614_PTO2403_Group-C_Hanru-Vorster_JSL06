@@ -32,7 +32,7 @@ function displayMenuItems(menu) {
             const food = document.createElement('li');
             food.textContent = itemName;
             food.addEventListener('click', () => {
-                addToOrder(itemName)
+                addToOrder(itemName);
             });
             food.appendChild(foodList);
             menuContainer.appendChild(food);
@@ -58,7 +58,7 @@ function addToOrder(itemName) {
 
 // Function to initialize the menu system
 function initMenuSystem(menu) {
-    displayMenuItems(menu)
+    displayMenuItems(menu);
 }
 
 initMenuSystem(menu);
