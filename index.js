@@ -7,12 +7,12 @@ const menu = {
 
 // Object containing a price for each item on the menu
 const prices = {
-    "Garlic Bread": 6.5,
-    "Bruschetta": 3.0,
-    "Margherita Pizza": 12.0,
-    "Spaghetti Carbonara": 8.0,
-    "Tiramisu": 7.0,
-    "Cheesecake": 6.5
+    "Garlic Bread": 40,
+    "Bruschetta": 35,
+    "Margherita Pizza": 108,
+    "Spaghetti Carbonara": 85,
+    "Tiramisu": 70,
+    "Cheesecake": 90,
 }
 let totalPrice = 0;
 
