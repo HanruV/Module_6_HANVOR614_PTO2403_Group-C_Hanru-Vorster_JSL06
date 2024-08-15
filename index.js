@@ -8,21 +8,21 @@ const menu = {
 // Function to display menu items by category
 function displayMenuItems(menu) {
     // Get the menu container element from the HTML
-
+    
     // Loop through each category and its items in the menu object
-
+    
         // Create an element to represent the category
-
+        
         // Set the text content of the category element to the category name
-
+        
         // Append the category element to the menu container
-
+        
         // Create an element to represent a list of items
-
+        
         // Append a list of items element to the menu container
-
+        
         // Loop through the items in the category and create list items
-
+    
             // Create a list item element
 
             // Set the text content of the list item element to the item name
@@ -33,6 +33,7 @@ function displayMenuItems(menu) {
 
             
 }
+
 
 // Callback function for adding an item to the order
 function addToOrder(itemName) {
