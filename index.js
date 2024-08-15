@@ -5,6 +5,16 @@ const menu = {
     Desserts: ["Tiramisu", "Cheesecake"]
 };
 
+const prices = {
+    "Garlic Bread": 6.5,
+    "Bruschetta": 3.0,
+    "Margherita Pizza": 12.0,
+    "Spaghetti Carbonara": 8.0,
+    "Tiramisu": 7.0,
+    "Cheesecake": 6.5
+}
+let totalPrice = 0;
+
 // Function to display menu items by category
 function displayMenuItems(menu) { 
     const menuContainer = document.getElementById('menu');  // Get the menu container element from the HTML
@@ -41,9 +51,10 @@ function addToOrder(itemName) {
     // Append the list item to the order items list
     orderContainer.appendChild(orderList);
     // Calculate and update the total price
-    
+    const itemPrice = prices[itemName];
+    totalPrice += itemPrice;
     // Update the text content of the order total element with the new total
-    
+    orderTotal.textContent = totalPrice.toFixed(2);
 }
 
 // Function to initialize the menu system
