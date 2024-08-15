@@ -42,8 +42,8 @@ function displayMenuItems(menu) {
 
 // Callback function for adding an item to the order
 function addToOrder(itemName) {
-    // creting all the variables, and fetching from the DOM the order container and the order-total container
-    // making a list item for tht order list
+    // Creating all the variables, and fetching from the DOM the order container and the order-total container
+    // Making a list item for tht order list
     const orderContainer = document.getElementById('order');
     const orderTotal = document.getElementById('order-total');
     const orderList = document.createElement('li');
