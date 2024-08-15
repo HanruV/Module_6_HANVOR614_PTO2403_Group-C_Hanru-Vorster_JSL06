@@ -5,6 +5,7 @@ const menu = {
     Desserts: ["Tiramisu", "Cheesecake"]
 };
 
+// Object containing a price for each item on the menu
 const prices = {
     "Garlic Bread": 6.5,
     "Bruschetta": 3.0,
@@ -37,7 +38,6 @@ function displayMenuItems(menu) {
         });
     }         
 }
-
 
 // Callback function for adding an item to the order
 function addToOrder(itemName) {
