@@ -32,16 +32,18 @@ displayMenuItems(menu)
 // Callback function for adding an item to the order
 function addToOrder(itemName) {
     // Get the order items list and the order total element from the HTML
-
+    const orderContainer = document.getElementById('order');
+    const orderTotal = document.getElementById('order-total');
     // Create a list item for the order
-
+    const orderList = document.createElement('li');
     // Set the text content of the list item to the item name
-
+    orderList.textContent = itemName;
     // Append the list item to the order items list
-
+    orderContainer.appendChild(orderList);
     // Calculate and update the total price
-
+    
     // Update the text content of the order total element with the new total
+    
 }
 
 // Function to initialize the menu system
