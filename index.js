@@ -17,7 +17,7 @@ const prices = {
 let totalPrice = 0;
 
 // Function to display menu items by category
-function displayMenuItems(menu) {
+const displayMenuItems = menu => {
     const menuContainer = document.getElementById('menu');
     // Looping through each category and its items in the menu object, creating 2 elements, an h2 containing the name of a category
     // and a ul to contain the food items
@@ -41,7 +41,7 @@ function displayMenuItems(menu) {
 }
 
 // Callback function for adding an item to the order
-function addToOrder(itemName) {
+const addToOrder = itemName => {
     // Creating all the variables, and fetching from the DOM the order container and the order-total container
     // Making a list item for tht order list
     const orderContainer = document.getElementById('order');
@@ -57,7 +57,7 @@ function addToOrder(itemName) {
 }
 
 // Function to initialize the menu system
-function initMenuSystem(menu) {
+const initMenuSystem = menu => {
     displayMenuItems(menu);
 }
 
